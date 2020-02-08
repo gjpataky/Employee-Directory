@@ -49,3 +49,8 @@ You are required to submit the following:
 - the URL to the deployed application
 
 - the URL to the Github repository
+
+npm create install
+app.js: initial state an array of employees
+grab from json & populate that state using useEffect
+up to me to sort.
