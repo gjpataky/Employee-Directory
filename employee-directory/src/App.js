@@ -6,43 +6,39 @@ import Title from "./components/Title";
 import employees from "./employee.json";
 
 class App extends Component {
-  // Setting this.state.employees to the employees json array
   state = {
     employees
   };
 
-  // Sort id
+  // Sorting
   idSort = id => {
     const employees = this.state.employees.sort(function(a, b) {
       return b.id - a.id;
     });
     this.setState({ employees });
   };
-
-        this.setState({ employees });
-  };
-
-  // Map over this.state.employees and render a EmployeeTable component for each friend object
-  render() {
-    return (
-      <Wrapper>
-        <Title>Employee Directory</Title>
-        <div>Sort ID's in descending order by clicking ID table header</div>
-        
-        <EmployeeData idSort={this.idSort}>
-          {this.state.employees.map(employee => (
-            <EmployeeData
-              id={employee.id}
-              firstName={employee.firstName}
-              lastName={employee.lastName}
-              email={employee.email}
-              phone={employee.phone}
-            />
-          ))}
-        </EmployeeData>
-      </Wrapper>
-    );
-  }
 }
+
+render();
+return (
+  <Wrapper>
+    <Title>Employee Directory</Title>
+    <div>Sort ID's in descending order by clicking on header</div>
+
+    <EmployeeData idSort={this.idSort}>
+      {this.state.employees.map(employee => (
+        <EmployeeInfo
+          id={employee.id}
+          firstName={employee.firstName}
+          lastName={employee.lastName}
+          department={employee.department}
+          email={employee.email}
+          phone={employee.phone}
+          location={employee.location}
+        />
+      ))}
+    </EmployeeData>
+  </Wrapper>
+);
 
 export default App;

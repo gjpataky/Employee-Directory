@@ -2,7 +2,7 @@ import React from "react";
 
 function EmployeeData(props) {
   return (
-    <table class="data" id="employeeTable">
+    <table class="data" id="employeeData">
       <thead>
         <tr>
           <th scope="col" onClick={() => props.idSort(props.id)}>
