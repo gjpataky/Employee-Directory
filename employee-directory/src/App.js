@@ -17,9 +17,9 @@ class App extends Component {
     });
     this.setState({ employees });
   };
-}
 
-render();
+
+render(){
 return (
   <Wrapper>
     <Title>Employee Directory</Title>
@@ -29,8 +29,7 @@ return (
       {this.state.employees.map(employee => (
         <EmployeeInfo
           id={employee.id}
-          firstName={employee.firstName}
-          lastName={employee.lastName}
+          name={employee.name}
           department={employee.department}
           email={employee.email}
           phone={employee.phone}
@@ -40,5 +39,6 @@ return (
     </EmployeeData>
   </Wrapper>
 );
-
+}
+   
 export default App;

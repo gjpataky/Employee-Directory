@@ -1,8 +1,7 @@
 [
   {
     "id": 1,
-    "firstName": "Gabe",
-    "lastName": "Pataky",
+    "name": "Gabe Pataky",
     "department": "Operations",
     "email": "gpataky@email.com",
     "deskPhone": 8479895791,
@@ -10,8 +9,7 @@
   },
   {
     "id": 2,
-    "firstName": "Erin",
-    "lastName": "Collins",
+    "name": "Erin Collins",
     "department": "Human Resources",
     "email": "ecollins@email.com",
     "deskPhone": 7737416589,
@@ -19,8 +17,7 @@
   },
   {
     "id": 3,
-    "firstName": "Vinay",
-    "lastName": "Sisomvang",
+    "name": "Vinay Sisomvang",
     "department": "Account Management",
     "email": "vsisomvang@email.com",
     "deskPhone": 3127995821,
@@ -28,8 +25,7 @@
   },
   {
     "id": 4,
-    "firstName": "Jen",
-    "lastName": "Greene",
+    "name": "Jen Greene",
     "department": "Marketing",
     "email": "jgreene@email.com",
     "deskPhone": 6302894513,
@@ -37,8 +33,7 @@
   },
   {
     "id": 5,
-    "firstName": "Joe",
-    "lastName": "McMahan",
+    "name": "Joe McMahan",
     "department": "Facilities",
     "email": "jmcmahan@email.com",
     "deskPhone": 8157349568,
@@ -46,8 +41,7 @@
   },
   {
     "id": 6,
-    "firstName": "Victor",
-    "lastName": "Alvarez",
+    "name": "Victor Alvarez",
     "department": "IT",
     "email": "valvarez@email.com",
     "deskPhone": 8475249752,

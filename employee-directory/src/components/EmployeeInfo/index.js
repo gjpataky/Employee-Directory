@@ -5,8 +5,7 @@ function EmployeeInfo(props) {
     <>
       <tr>
         <th scope="row">{props.id}</th>
-        <td>{props.firstName}</td>
-        <td>{props.lastName}</td>
+        <td>{props.name}</td>
         <td>{props.department}</td>
         <td>{props.phone}</td>
         <td>{props.email}</td>

@@ -8,8 +8,7 @@ function EmployeeData(props) {
           <th scope="col" onClick={() => props.idSort(props.id)}>
             #
           </th>
-          <th scope="col">First</th>
-          <th scope="col">Last</th>
+          <th scope="col">Name</th>
           <th scope="col">Department</th>
           <th scope="col">Phone</th>
           <th scope="col">Email</th>
