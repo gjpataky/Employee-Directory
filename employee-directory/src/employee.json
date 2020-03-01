@@ -1,0 +1,56 @@
+[
+  {
+    "id": 1,
+    "firstName": "Gabe",
+    "lastName": "Pataky",
+    "department": "Operations",
+    "email": "gpataky@email.com",
+    "deskPhone": 8479895791,
+    "location": "Chicago"
+  },
+  {
+    "id": 2,
+    "firstName": "Erin",
+    "lastName": "Collins",
+    "department": "Human Resources",
+    "email": "ecollins@email.com",
+    "deskPhone": 7737416589,
+    "location": "Tampa"
+  },
+  {
+    "id": 3,
+    "firstName": "Vinay",
+    "lastName": "Sisomvang",
+    "department": "Account Management",
+    "email": "vsisomvang@email.com",
+    "deskPhone": 3127995821,
+    "location": "Tempe"
+  },
+  {
+    "id": 4,
+    "firstName": "Jen",
+    "lastName": "Greene",
+    "department": "Marketing",
+    "email": "jgreene@email.com",
+    "deskPhone": 6302894513,
+    "location": "Dallas"
+  },
+  {
+    "id": 5,
+    "firstName": "Joe",
+    "lastName": "McMahan",
+    "department": "Facilities",
+    "email": "jmcmahan@email.com",
+    "deskPhone": 8157349568,
+    "location": "Tulsa"
+  },
+  {
+    "id": 6,
+    "firstName": "Victor",
+    "lastName": "Alvarez",
+    "department": "IT",
+    "email": "valvarez@email.com",
+    "deskPhone": 8475249752,
+    "location": "Remote"
+  }
+]
